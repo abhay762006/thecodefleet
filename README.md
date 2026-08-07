@@ -1,11 +1,10 @@
+# 🚀 TheCodeFleet
+
 <div align="center">
 
-# TheCodeFleet 🚀
-
-### Building modern, responsive, and user-friendly web experiences.
-
-**Live Website:** https://thecodefleet.netlify.app/
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify)](https://thecodefleet.netlify.app/)
+
+Modern Event Management Website
 
 </div>
 
