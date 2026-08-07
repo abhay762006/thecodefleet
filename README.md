@@ -104,6 +104,12 @@ This project reflects my ability to effectively leverage AI as a development par
 * Expand with additional pages and features
 
 ---
+# 📬 Connect With Me
+
+
+- 💼 **LinkedIn:** https://www.linkedin.com/in/abhay-giri-852529311
+- 💻 **GitHub:** https://github.com/abhay762006---
+
 
 <div align="center">
 
