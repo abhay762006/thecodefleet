@@ -69,6 +69,13 @@ Built with **HTML**, **CSS**, and **JavaScript**, the project focuses on deliver
 * 🚀 Hosted on Netlify
 * 🤖 Developed with AI-assisted workflow
 
+## 📸 Preview
+
+### Home Page
+![Home](./screenshot_website.png)
+
+### Registration Form
+![Register](./register_form.png)
 
 ## 🤖 AI-Assisted Development
 
