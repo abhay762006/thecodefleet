@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eventfiy | Create unforgettable events</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <nav class="nav-bar">
+        <div class="logo">eventfiy</div>
+        <a class="btn btn-primary" href="#contact">Register</a>
+      </nav>
+      <div class="hero-content">
+        <h1>Event planning made effortless.</h1>
+        <p>Eventfiy helps you design, manage, and launch memorable events with ease. Build guest lists, track RSVPs, and share stunning event pages in minutes.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#features">Explore features</a>
+          <a class="btn btn-primary" href="#events">Explore events</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="hidden">
+    <section id="features" class="section-light">
+      <div class="container">
+        <h2>Powerful tools for every event</h2>
+        <div class="grid">
+          <article class="feature-card">
+            <h3>Custom event pages</h3>
+            <p>Create beautiful, branded event pages that impress guests and collect registrations seamlessly.</p>
+          </article>
+          <article class="feature-card">
+            <h3>RSVP & guest management</h3>
+            <p>Track attendee replies, manage seating, and keep your guest list organized from one dashboard.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Smart reminders</h3>
+            <p>Send automatic reminders and updates so your guests never miss a detail.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="events" class="section-light">
+      <div class="container">
+        <h2>Upcoming events</h2>
+        <div class="event-grid">
+          <article class="event-card">
+            <h3>Spring Gala</h3>
+            <p class="event-meta">May 22 • 7:00 PM</p>
+            <p class="event-meta">Grand Ballroom, City Park</p>
+            <p>Enjoy a stylish evening with live music, gourmet dining, and curated guest experiences.</p>
+          </article>
+          <article class="event-card">
+            <h3>Product Launch</h3>
+            <p class="event-meta">June 4 • 10:00 AM</p>
+            <p class="event-meta">Innovation Hub, Downtown</p>
+            <p>Present your newest product to key guests with stage demos, Q&A, and media coverage.</p>
+          </article>
+          <article class="event-card">
+            <h3>Community Meetup</h3>
+            <p class="event-meta">June 14 • 6:00 PM</p>
+            <p class="event-meta">Riverside Pavilion</p>
+            <p>Connect local organizers and attendees over refreshments and open discussions.</p>
+          </article>
+          <article class="event-card">
+            <h3>Summer Workshop</h3>
+            <p class="event-meta">July 9 • 1:00 PM</p>
+            <p class="event-meta">Studio 8</p>
+            <p>Hands-on sessions designed to help teams build event skills and creative systems.</p>
+          </article>
+          <article class="event-card">
+            <h3>Charity Auction</h3>
+            <p class="event-meta">July 22 • 5:30 PM</p>
+            <p class="event-meta">Riverside Gallery</p>
+            <p>Raise funds for a great cause with live auction items and guest speaker highlights.</p>
+          </article>
+          <article class="event-card">
+            <h3>Conference Kickoff</h3>
+            <p class="event-meta">August 12 • 9:00 AM</p>
+            <p class="event-meta">Convention Center</p>
+            <p>Launch your conference with keynote speakers, networking lounges, and registration support.</p>
+          </article>
+          <article class="event-card">
+            <h3>Holiday Celebration</h3>
+            <p class="event-meta">December 18 • 7:00 PM</p>
+            <p class="event-meta">Winter Garden Hall</p>
+            <p>Share festive moments with themed decor, seasonal food, and live entertainment.</p>
+          </article>
+          <article class="event-card">
+            <h3>Networking Breakfast</h3>
+            <p class="event-meta">September 5 • 8:00 AM</p>
+            <p class="event-meta">Skyline Lounge</p>
+            <p>Start the day with coffee, expert panels, and fast-paced connection opportunities.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-dark">
+      <div class="container split">
+        <div>
+          <h2>Designed for hosts and organizers</h2>
+          <p>Whether you're planning a wedding, conference, or community gathering, Eventfiy gives you everything needed to run a successful event from start to finish.</p>
+          <ul>
+            <li>Easy setup and event templates</li>
+            <li>Mobile-friendly guest experience</li>
+            <li>Insights and attendee analytics</li>
+          </ul>
+        </div>
+        <div class="feature-image">
+          <div class="card">Eventfiy</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-light">
+      <div class="container contact-card">
+        <div class="contact-grid">
+          <div>
+            <h2>Register for your event</h2>
+            <p>Choose your event, provide your details, and complete secure payment with Paytm, PhonePe, or credit card.</p>
+            <p>All fields are required to reserve your spot, and we do not accept cash or pay later options.</p>
+          </div>
+          <form class="registration-form" id="registration-form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your full name" required />
+            </label>
+            <label>
+              Age
+              <input type="number" name="age" min="13" placeholder="Age" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Select event
+              <select name="event" required>
+                <option value="">Choose an event</option>
+                <option value="spring-gala">Spring Gala</option>
+                <option value="product-launch">Product Launch</option>
+                <option value="community-meetup">Community Meetup</option>
+                <option value="summer-workshop">Summer Workshop</option>
+                <option value="charity-auction">Charity Auction</option>
+                <option value="conference-kickoff">Conference Kickoff</option>
+                <option value="holiday-celebration">Holiday Celebration</option>
+                <option value="networking-breakfast">Networking Breakfast</option>
+              </select>
+            </label>
+            <label>
+              Ticket cost
+              <select name="cost" required>
+                <option value="">Select a price</option>
+                <option value="49">Standard - $49</option>
+                <option value="79">Premium - $79</option>
+                <option value="129">VIP - $129</option>
+              </select>
+            </label>
+            <label>
+              Payment option
+              <select name="payment" required>
+                <option value="">Choose a payment method</option>
+                <option value="paytm">Paytm</option>
+                <option value="phonepe">PhonePe</option>
+                <option value="credit-card">Credit Card</option>
+              </select>
+            </label>
+            <button class="btn btn-primary" type="submit">Register</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Eventfiy. All rights reserved.</p>
+      <p>Built for event creators, planners, and hosts.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
