@@ -118,5 +118,6 @@ This project reflects my ability to effectively leverage AI as a development par
 If you found this project interesting, consider giving it a star.
 
 Made with ❤️ by **Abhay**
+From idea to website — powered by AI.
 
 </div>
