@@ -50,13 +50,6 @@ Visit the website here:
 
 **https://thecodefleet.netlify.app/**
 
-## Local Setup
-
-Clone the repository
-
-```bash id="n84q1h"
-git clone https://github.com/your-username/thecodefleet.git
-```
 
 Navigate into the project folder and open `index.html` in your preferred browser.
 
