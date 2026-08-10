@@ -106,7 +106,6 @@ This project reflects my ability to effectively leverage AI as a development par
 
 <div align="center">
 
-### Thanks for visiting! ⭐
 
 If you found this project interesting, consider giving it a star.
 
