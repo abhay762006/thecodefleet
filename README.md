@@ -53,9 +53,6 @@ Visit the website here:
 
 Navigate into the project folder and open `index.html` in your preferred browser.
 
-## Why This Project?
-
-TheCodeFleet was built to practice modern frontend development by focusing on responsive design, clean layouts, and real-world integrations without relying on a backend.
 
 ## 📖 About The Project
 
